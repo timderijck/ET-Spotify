@@ -1,0 +1,15 @@
+C:\Users\emile\source\repos\et-spotify\et-spotify\bin\Debug\net10.0\et-spotify.exe
+C:\Users\emile\source\repos\et-spotify\et-spotify\bin\Debug\net10.0\et-spotify.deps.json
+C:\Users\emile\source\repos\et-spotify\et-spotify\bin\Debug\net10.0\et-spotify.runtimeconfig.json
+C:\Users\emile\source\repos\et-spotify\et-spotify\bin\Debug\net10.0\et-spotify.dll
+C:\Users\emile\source\repos\et-spotify\et-spotify\bin\Debug\net10.0\et-spotify.pdb
+C:\Users\emile\source\repos\et-spotify\et-spotify\obj\Debug\net10.0\et-spotify.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emile\source\repos\et-spotify\et-spotify\obj\Debug\net10.0\et-spotify.AssemblyInfoInputs.cache
+C:\Users\emile\source\repos\et-spotify\et-spotify\obj\Debug\net10.0\et-spotify.AssemblyInfo.cs
+C:\Users\emile\source\repos\et-spotify\et-spotify\obj\Debug\net10.0\et-spotify.csproj.CoreCompileInputs.cache
+C:\Users\emile\source\repos\et-spotify\et-spotify\obj\Debug\net10.0\et-spotify.sourcelink.json
+C:\Users\emile\source\repos\et-spotify\et-spotify\obj\Debug\net10.0\et-spotify.dll
+C:\Users\emile\source\repos\et-spotify\et-spotify\obj\Debug\net10.0\refint\et-spotify.dll
+C:\Users\emile\source\repos\et-spotify\et-spotify\obj\Debug\net10.0\et-spotify.pdb
+C:\Users\emile\source\repos\et-spotify\et-spotify\obj\Debug\net10.0\et-spotify.genruntimeconfig.cache
+C:\Users\emile\source\repos\et-spotify\et-spotify\obj\Debug\net10.0\ref\et-spotify.dll
