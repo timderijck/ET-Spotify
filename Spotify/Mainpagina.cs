@@ -9,17 +9,21 @@ namespace Spotify
         static void Main(string[] args)
         {
             Console.WriteLine(" ===  Hoofdpagina  === ");
-            Console.WriteLine(" ===  Wat wilt u graag doen?  === ");
+            Console.WriteLine("Wat wilt u graag doen?");
+            Console.WriteLine("Typ 1 t/m 3");
+            Console.WriteLine("1. Home");
+            Console.WriteLine("2. Contact");
+            Console.WriteLine("3. Instellingen");
 
             string keuze = Console.ReadLine();
 
             if (keuze == "1")
             {
-                Contact.ContactText();
+                Console.WriteLine("Home");
             }
             else if (keuze == "2")
             {
-                Console.WriteLine("Contact");
+                Contact.ContactText();
             }
             else if (keuze == "3")
             {
