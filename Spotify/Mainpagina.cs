@@ -12,7 +12,7 @@ namespace Spotify
             Console.WriteLine("Wat wilt u graag doen?");
             Console.WriteLine("Typ 1 t/m 3");
             Console.WriteLine("1. Home");
-            Console.WriteLine("2. Contact");
+            Console.WriteLine("2. Hulp");
             Console.WriteLine("3. Instellingen");
 
             string keuze = Console.ReadLine();
