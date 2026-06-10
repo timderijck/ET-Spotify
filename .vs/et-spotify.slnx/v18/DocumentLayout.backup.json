@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\emile\\OneDrive - ROC Nijmegen\\oop4\\et-spotify\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6630179F-FCFA-0C0D-D731-4EF1C33ABA7C}|et-spotify\\et-spotify.csproj|c:\\users\\emile\\onedrive - roc nijmegen\\oop4\\et-spotify\\et-spotify\\song.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6630179F-FCFA-0C0D-D731-4EF1C33ABA7C}|et-spotify\\et-spotify.csproj|solutionrelative:et-spotify\\song.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6630179F-FCFA-0C0D-D731-4EF1C33ABA7C}|et-spotify\\et-spotify.csproj|c:\\users\\emile\\onedrive - roc nijmegen\\oop4\\et-spotify\\et-spotify\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6630179F-FCFA-0C0D-D731-4EF1C33ABA7C}|et-spotify\\et-spotify.csproj|solutionrelative:et-spotify\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6630179F-FCFA-0C0D-D731-4EF1C33ABA7C}|et-spotify\\et-spotify.csproj|c:\\users\\emile\\onedrive - roc nijmegen\\oop4\\et-spotify\\et-spotify\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6630179F-FCFA-0C0D-D731-4EF1C33ABA7C}|et-spotify\\et-spotify.csproj|solutionrelative:et-spotify\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6630179F-FCFA-0C0D-D731-4EF1C33ABA7C}|et-spotify\\et-spotify.csproj|c:\\users\\emile\\onedrive - roc nijmegen\\oop4\\et-spotify\\et-spotify\\song.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6630179F-FCFA-0C0D-D731-4EF1C33ABA7C}|et-spotify\\et-spotify.csproj|solutionrelative:et-spotify\\song.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,26 +30,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\emile\\OneDrive - ROC Nijmegen\\oop4\\et-spotify\\et-spotify\\Client.cs",
+              "RelativeDocumentMoniker": "et-spotify\\Client.cs",
+              "ToolTip": "C:\\Users\\emile\\OneDrive - ROC Nijmegen\\oop4\\et-spotify\\et-spotify\\Client.cs*",
+              "RelativeToolTip": "et-spotify\\Client.cs*",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwEMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-09T12:39:46.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Song.cs",
               "DocumentMoniker": "C:\\Users\\emile\\OneDrive - ROC Nijmegen\\oop4\\et-spotify\\et-spotify\\Song.cs",
               "RelativeDocumentMoniker": "et-spotify\\Song.cs",
-              "ToolTip": "C:\\Users\\emile\\OneDrive - ROC Nijmegen\\oop4\\et-spotify\\et-spotify\\Song.cs",
-              "RelativeToolTip": "et-spotify\\Song.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\emile\\OneDrive - ROC Nijmegen\\oop4\\et-spotify\\et-spotify\\Song.cs*",
+              "RelativeToolTip": "et-spotify\\Song.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-05T10:06:21.208Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\emile\\OneDrive - ROC Nijmegen\\oop4\\et-spotify\\et-spotify\\Program.cs",
               "RelativeDocumentMoniker": "et-spotify\\Program.cs",
-              "ToolTip": "C:\\Users\\emile\\OneDrive - ROC Nijmegen\\oop4\\et-spotify\\et-spotify\\Program.cs",
-              "RelativeToolTip": "et-spotify\\Program.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAowB0AAAA4AAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\emile\\OneDrive - ROC Nijmegen\\oop4\\et-spotify\\et-spotify\\Program.cs*",
+              "RelativeToolTip": "et-spotify\\Program.cs*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-04T08:33:29.7Z",
               "EditorCaption": ""

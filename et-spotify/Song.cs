@@ -6,18 +6,19 @@ using System.Security.Cryptography.X509Certificates;
 
 internal class Song
 {
-    public string skip;
+    public string pauze;
     public string Title;
     public string Artist;
 
 
     public Song(string title, string artist)
     {
-        skip = "skip";
         Title = title;
         Artist = artist;
-
     }
+
+  
+
 
 }
 
