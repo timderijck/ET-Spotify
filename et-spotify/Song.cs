@@ -10,21 +10,12 @@ internal class Song
     public string Title;
     public string Artist;
 
-
     public Song(string title, string artist)
     {
         Title = title;
         Artist = artist;
     }
-
-  
-
-
 }
-
-
-  
-
 
 
 

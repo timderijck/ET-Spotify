@@ -2,25 +2,22 @@
 using System.Collections.Generic;
 using System.Text;
 using static System.Net.WebRequestMethods;
+
 namespace et_spotify
 {
     internal class Client
     {
+        List<playlist> playlists = new List<playlist>();
 
-  
-
-        public Client ()
+        public Client()
         {
-            LoadSongs();
+            loadPlaylist();
         }
-
 
         public int pauze(int pauze)
         {
-
-
             Console.WriteLine("klik op 5 om het nummer te stoppen");
-             pauze = Convert.ToInt32(Console.ReadLine());
+            pauze = Convert.ToInt32(Console.ReadLine());
 
             if (pauze == 5)
             {
@@ -29,6 +26,7 @@ namespace et_spotify
 
             Console.WriteLine("klik op 6 om het nummer weer af te spelen");
             pauze = Convert.ToInt32(Console.ReadLine());
+
             if (pauze == 6)
             {
                 Console.WriteLine("het nummer speelt weer af");
@@ -39,31 +37,34 @@ namespace et_spotify
 
 
 
-        List<Song> songs = new List<Song>();
 
-        public void LoadSongs()
+
+        List<playlist> playlist = new List<playlist>();
+
+        public void loadPlaylist()
         {
-            songs.Add(new Song("appel", "peer"));
-            songs.Add(new Song("qw", "er"));
-            songs.Add(new Song("fbhe", "fsyuf"));
+            playlist.Add(new playlist("rock"));
+            playlist.Add(new playlist("pop"));
 
-            for (int i = 0; i < songs.Count; i++)
+            Console.WriteLine("Beschikbare playlists:");
+            for (int i = 0; i < playlist.Count; i++)
             {
-                Console.WriteLine($"{i + 1} {songs[i].Title} by {songs[i].Artist}");
+                Console.WriteLine($"{i + 11}. {playlist[i].name}");
             }
+            
         }
 
-        public void Play(int keuze)
+        public void Playplaylist(int keuze)
         {
-            if (keuze > 0 && keuze <= songs.Count)
+
+          
+            if (keuze > 0 && keuze <= playlist.Count)
             {
-                Console.WriteLine(songs[keuze - 1].Title + " by " +
-                                  songs[keuze - 1].Artist +
-                                  " nummer speelt af");
+                Console.WriteLine($"Je speelt nu de playlist: {playlist[keuze - 1].name}");
             }
             else
             {
-                Console.WriteLine("geen nummer");
+                Console.WriteLine("Ongeldige keuze.");
             }
         }
     }

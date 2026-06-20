@@ -6,22 +6,11 @@ namespace et_spotify
 {
     internal class playlist
     {
+        public string name;
 
-        public int playlist(int playlist)
+        public playlist(string playlist)
         {
-            Console.WriteLine("kies een playlist");
-            int keuze = Convert.ToInt32(Console.ReadLine());
-
-
-            if (keuze == 1)
-            {
-                Console.WriteLine("je hebt playlist 1 gekozen");
-            }
-            
-
-            return playlist;
+            name = playlist;
         }
-
-
     }
 }
