@@ -6,7 +6,8 @@ using System.Security.Cryptography.X509Certificates;
 
 internal class Song
 {
-    public string pauze;
+    
+    
     public string Title;
     public string Artist;
 

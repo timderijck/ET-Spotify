@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.Design;
 using System.Text;
 using static System.Net.WebRequestMethods;
 
@@ -12,11 +13,12 @@ namespace et_spotify
         public Client()
         {
             loadPlaylist();
+       
         }
 
         public int pauze(int pauze)
         {
-            Console.WriteLine("klik op 5 om het nummer te stoppen");
+            Console.WriteLine("klik op 5 om het nummer te pauzeren");
             pauze = Convert.ToInt32(Console.ReadLine());
 
             if (pauze == 5)
@@ -36,6 +38,14 @@ namespace et_spotify
         }
 
 
+        public int stop(int Stop)
+        {
+            Console.WriteLine("klik op 7 om het nummer te stoppen");
+            Stop = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("het nummer is gestopt");
+            return Stop;
+        }
 
 
 
@@ -54,18 +64,33 @@ namespace et_spotify
             
         }
 
+
+        List<Song> songs = new List<Song>();
         public void Playplaylist(int keuze)
         {
 
-          
+
             if (keuze > 0 && keuze <= playlist.Count)
             {
-                Console.WriteLine($"Je speelt nu de playlist: {playlist[keuze - 1].name}");
+             
+                    Console.WriteLine($"je hebt playlist: {playlist[keuze - 1].name} gekozen");
+                    songs.Add(new Song("Counting Stars", "OneRepublic"));
+                    songs.Add(new Song("Happy", "Pharrell Williams"));
+                    songs.Add(new Song("Believer", "Imagine Dragons"));
+               
             }
             else
             {
                 Console.WriteLine("Ongeldige keuze.");
             }
         }
+
+     
+
+
+
+
     }
-}
+
+     
+    }
