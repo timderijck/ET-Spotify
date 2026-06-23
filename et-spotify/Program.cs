@@ -13,14 +13,16 @@ class Program
         if (keuze <= 10)
         {
             dataBase.Play(keuze);
-            client.pauze(0);
-           
+            client.Besturing();
         }
         else if (keuze >= 11)
         {
-
+            client.Playplaylist(1);
         }
+       
 
-        client.stop(0);
+       
+
+
     }
 }

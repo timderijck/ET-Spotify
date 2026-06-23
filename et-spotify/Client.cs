@@ -16,36 +16,35 @@ namespace et_spotify
        
         }
 
-        public int pauze(int pauze)
+
+
+        public void Besturing()
         {
-            Console.WriteLine("klik op 5 om het nummer te pauzeren");
-            pauze = Convert.ToInt32(Console.ReadLine());
+            int keuze = 0;
 
-            if (pauze == 5)
+            while (keuze != 7)
             {
-                Console.WriteLine("het nummer is gestopt kies een nieuw nummer");
+                Console.WriteLine("5 pauze en daarna op 6 om het weer verder te spelen, 7 stop");
+                keuze = Convert.ToInt32(Console.ReadLine());
+
+                if (keuze == 5)
+                {
+                    Console.WriteLine("Nummer gepauzeerd");
+                }
+
+                if (keuze == 6)
+                {
+                    Console.WriteLine("Nummer speelt weer af");
+                }
+
+                if (keuze == 7)
+                {
+                    Console.WriteLine("Nummer gestopt");
+                }
             }
-
-            Console.WriteLine("klik op 6 om het nummer weer af te spelen");
-            pauze = Convert.ToInt32(Console.ReadLine());
-
-            if (pauze == 6)
-            {
-                Console.WriteLine("het nummer speelt weer af");
-            }
-
-            return pauze;
         }
 
 
-        public int stop(int Stop)
-        {
-            Console.WriteLine("klik op 7 om het nummer te stoppen");
-            Stop = Convert.ToInt32(Console.ReadLine());
-
-            Console.WriteLine("het nummer is gestopt");
-            return Stop;
-        }
 
 
 
@@ -68,7 +67,6 @@ namespace et_spotify
         List<Song> songs = new List<Song>();
         public void Playplaylist(int keuze)
         {
-
 
             if (keuze > 0 && keuze <= playlist.Count)
             {
